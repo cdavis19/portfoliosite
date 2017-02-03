@@ -1,4 +1,4 @@
-.home {background-image: url(http://cdn.oxfordpoetryelection.com/2015/07/10/black-forest-of-germany-best-places-to-visit-in-germany.jpg);
+.home {background-image: url(https://picjumbo.imgix.net/HNCK0599.jpg?q=40&w=1650&sharp=30);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -34,13 +34,13 @@ li a:hover {
 }
 
 .name{
-  color:white;
+  color:#615f5e;
   text-align: center;
   font-size: 150px;
 }
 
 .front{
-    color: white;
+    color: #615f5e;
     text-align: center;
     font-size: 50px;
 }
@@ -61,20 +61,22 @@ li a:hover {
     border-radius: 5px;
     height: 500px;
     width: 400px;
-    margin: 10px;
+    margin: 20px;
   }
 
 .project{
   border: 1px solid black;
   float: left;
   width: 30%;
-  margin: 10px;
+  margin: 20px;
   background-color: rgb(215, 215, 221);
+  
 }
 
-.project img{ height: 250px;
-  max-width: 100%;
+.project img{ height: 300px;
+  max-width: 50%;
   padding: 35px;
+  margin: 60px;
 
 }
 
@@ -99,6 +101,13 @@ rgb(215, 215, 221)
     text-align: center;
   }
 
+
+  .port {
+    background-color:white;
+  }
+
+
+
   @media only screen and (min-width: 320px) and (max-width: 768px) {
   nav {
     width:100%;
@@ -110,7 +119,7 @@ rgb(215, 215, 221)
 }
 
   @media (min-width: 350px){
-    .project img{
+    .project{
       float: left;
 
     }
@@ -120,4 +129,12 @@ rgb(215, 215, 221)
     .project p {
       text-align: left;
     }
+  }
+
+  @media  (max-width: 100px) {
+    .project p {
+      text-align: left;
+    }
+  }
+
   }
