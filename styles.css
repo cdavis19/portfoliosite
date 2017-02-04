@@ -8,6 +8,10 @@
 
 .aboutme{background-color:black;}
 
+.port{
+  background-color:#8694ed;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,6 +30,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 
@@ -37,13 +42,19 @@ li a:hover {
   color:#615f5e;
   text-align: center;
   font-size: 150px;
+  font-family: serif;
+  opacity: 0.9;
 }
 
 .front{
     color: #615f5e;
     text-align: center;
     font-size: 50px;
+    font-family: serif;
+    opacity: 0.9;
+
 }
+
 
  .about{
    color: white;
@@ -65,30 +76,34 @@ li a:hover {
   }
 
 .project{
-  border: 1px solid black;
+  border: 1px solid white;
   float: left;
-  width: 30%;
-  margin: 20px;
+  min-width: 22%;
+  margin: 18px;
   background-color: rgb(215, 215, 221);
-  
-}
-
-.project img{ height: 300px;
-  max-width: 50%;
-  padding: 35px;
-  margin: 60px;
+  border-radius: 10px;
 
 }
 
-  h3 {
+.project img{ height: 140px;
+  width: 90%;
+  padding: 20px;
+  margin: 0px;
+
+}
+
+h3 {
     font-family: monospace;
-    background-color: rgb(228, 110, 24);
-rgb(215, 215, 221)
-  }
+    background-color: rgb(171, 171, 241);
+    color: white;
+    padding: 20px;
+}
 
   .project a{
     text-decoration: none;
     display: block;
+    padding: 20px;
+    color: rgb(73, 157, 233);
 
   }
 
@@ -99,12 +114,12 @@ rgb(215, 215, 221)
 
   #head{
     text-align: center;
+    color: white;
+    font-family: sans-serif;
   }
 
 
-  .port {
-    background-color:white;
-  }
+
 
 
 
@@ -118,7 +133,7 @@ rgb(215, 215, 221)
   }
 }
 
-  @media (min-width: 350px){
+  @media (min-width: 250px){
     .project{
       float: left;
 
